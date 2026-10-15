@@ -112,6 +112,9 @@ See [tests/README.md](tests/README.md) and [docs/README-dev.md](docs/README-dev.
 
 `CITATION.cff` carries the same reference in machine-readable form.
 
+The source code of each release is archived on Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23399274.svg)](https://doi.org/10.5281/zenodo.23399274) — this DOI always resolves to the latest version.
+
 ## License
 
 Apache-2.0.

@@ -25,6 +25,7 @@ authors:
     family-names: Lebecq
     affiliation: BNP Paribas
 repository-code: "https://github.com/Rqbln/VERA"
+doi: 10.5281/zenodo.23399274
 license: Apache-2.0
 keywords:
   - responsible AI
