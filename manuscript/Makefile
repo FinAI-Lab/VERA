@@ -2,7 +2,7 @@
 # The submitted APSEC paper lives in apsec/ and has its own `make apsec` target.
 # `make` with no target lists the targets.
 .DEFAULT_GOAL := help
-.PHONY: help draft paper submit check arms titles section watch tables tables-smoke overleaf apsec clean
+.PHONY: help draft paper submit check arms titles section watch tables tables-smoke overleaf apsec apsec-cameraready apsec-arxiv apsec-onepager clean
 
 # --- Switches (override on the command line: make draft ARM=reduced) -------
 ARM          ?= full
@@ -85,5 +85,22 @@ apsec: ## Build the submitted APSEC paper (apsec/main_apsec.pdf)
 	cd apsec && latexmk -pdf -interaction=nonstopmode -outdir=build main_apsec.tex && cp build/main_apsec.pdf main_apsec.pdf
 	@echo "PDF: manuscript/apsec/main_apsec.pdf"
 
+apsec-cameraready: ## Build the APSEC camera-ready in A4 (apsec/main_apsec_cameraready.pdf)
+	cd apsec && latexmk -pdf -interaction=nonstopmode -outdir=build-a4 -jobname=main_apsec_cameraready \
+		-usepretex='\PassOptionsToClass{a4paper}{IEEEtran}' main_apsec.tex \
+		&& cp build-a4/main_apsec_cameraready.pdf main_apsec_cameraready.pdf
+	@$(PYTHON) apsec/scripts/check_cameraready.py apsec/main_apsec_cameraready.pdf
+
+apsec-arxiv: ## Build the arXiv package (apsec/arxiv/vera-apsec2026-arxiv.tar.gz + PDF)
+	$(PYTHON) apsec/scripts/make_arxiv_package.py
+
+apsec-onepager: ## Build the LinkedIn one-pager (apsec/linkedin/VERA_APSEC2026_onepager.pdf + .png)
+	cd apsec/linkedin && latexmk -pdf -interaction=nonstopmode -file-line-error -jobname=VERA_APSEC2026_onepager onepager.tex >/dev/null \
+		&& pdftoppm -r 150 -png -singlefile VERA_APSEC2026_onepager.pdf VERA_APSEC2026_onepager \
+		&& latexmk -c -jobname=VERA_APSEC2026_onepager >/dev/null
+	@echo "PDF: manuscript/apsec/linkedin/VERA_APSEC2026_onepager.pdf"
+	@pdfinfo apsec/linkedin/VERA_APSEC2026_onepager.pdf | grep -E "Pages|Page size"
+	@sips -g pixelWidth -g pixelHeight apsec/linkedin/VERA_APSEC2026_onepager.png 2>/dev/null | tail -2
+
 clean: ## Remove every build product
-	rm -rf $(BUILD) apsec/build tables-smoke main*.pdf apsec/main_apsec.pdf
+	rm -rf $(BUILD) apsec/build apsec/build-a4 apsec/arxiv tables-smoke main*.pdf apsec/main_apsec*.pdf apsec/linkedin/VERA_APSEC2026_onepager.*

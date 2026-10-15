@@ -103,6 +103,15 @@ See [tests/README.md](tests/README.md) and [docs/README-dev.md](docs/README-dev.
 
 [docs/README.md](docs/README.md) indexes everything; AI coding agents start at [AGENTS.md](AGENTS.md).
 
+## Citing VERA
+
+> R. Quériaux, S. Bachellery, L. Déléris, S. Rajput, M. Barry, T. Sharma and J. Lebecq,
+> "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+> in *Proceedings of the 33rd Asia-Pacific Software Engineering Conference (APSEC), Software
+> Engineering in Practice Track*, 2026. To appear.
+
+`CITATION.cff` carries the same reference in machine-readable form.
+
 ## License
 
 Apache-2.0.

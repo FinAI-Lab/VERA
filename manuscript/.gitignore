@@ -10,6 +10,8 @@ build/
 *.pdf
 *.synctex.gz
 tables-smoke/
+apsec/build-a4/
+apsec/arxiv/
 
 # Figures produced by `make tables` are kept (source for compilation / replication)
 !figures/*.pdf

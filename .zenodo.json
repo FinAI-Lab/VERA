@@ -1,0 +1,28 @@
+{
+  "title": "VERA — Verifiable Evaluation for Responsible AI",
+  "description": "<p>Open-source, self-hosted evaluation engine and review dashboard for responsible-AI requirements: it turns a declared specification (registry of benchmarks to requirements, catalog of weights) into scored, traceable evidence, with a content digest pinned into every run. Ships the twelve measurable COMPL-AI requirements of the EU AI Act and a security-focused alternative specification.</p><p>Companion artifact of the paper &quot;VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act&quot;, accepted at APSEC 2026 (Software Engineering in Practice track).</p>",
+  "upload_type": "software",
+  "license": "apache-2.0",
+  "access_right": "open",
+  "creators": [
+    {"name": "Quériaux, Robin", "affiliation": "BNP Paribas"},
+    {"name": "Bachellery, Solveig", "affiliation": "BNP Paribas"},
+    {"name": "Déléris, Léa", "affiliation": "BNP Paribas"},
+    {"name": "Rajput, Saurabh", "affiliation": "Dalhousie University"},
+    {"name": "Barry, Mariam", "affiliation": "BNP Paribas"},
+    {"name": "Sharma, Tushar", "affiliation": "Dalhousie University"},
+    {"name": "Lebecq, Jérôme", "affiliation": "BNP Paribas"}
+  ],
+  "keywords": [
+    "responsible AI",
+    "EU AI Act",
+    "COMPL-AI",
+    "large language models",
+    "model evaluation",
+    "fairness",
+    "software engineering in practice"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/Rqbln/VERA", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

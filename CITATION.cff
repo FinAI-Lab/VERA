@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+title: "VERA — Verifiable Evaluation for Responsible AI"
+message: "If you use VERA, please cite the paper below."
+type: software
+authors:
+  - given-names: Robin
+    family-names: Quériaux
+    affiliation: BNP Paribas
+  - given-names: Solveig
+    family-names: Bachellery
+    affiliation: BNP Paribas
+  - given-names: Léa
+    family-names: Déléris
+    affiliation: BNP Paribas
+  - given-names: Saurabh
+    family-names: Rajput
+    affiliation: Dalhousie University
+  - given-names: Mariam
+    family-names: Barry
+    affiliation: BNP Paribas
+  - given-names: Tushar
+    family-names: Sharma
+    affiliation: Dalhousie University
+  - given-names: Jérôme
+    family-names: Lebecq
+    affiliation: BNP Paribas
+repository-code: "https://github.com/Rqbln/VERA"
+license: Apache-2.0
+keywords:
+  - responsible AI
+  - EU AI Act
+  - COMPL-AI
+  - large language models
+  - evaluation
+  - software engineering in practice
+preferred-citation:
+  type: conference-paper
+  title: "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act"
+  authors:
+    - given-names: Robin
+      family-names: Quériaux
+      affiliation: BNP Paribas
+    - given-names: Solveig
+      family-names: Bachellery
+      affiliation: BNP Paribas
+    - given-names: Léa
+      family-names: Déléris
+      affiliation: BNP Paribas
+    - given-names: Saurabh
+      family-names: Rajput
+      affiliation: Dalhousie University
+    - given-names: Mariam
+      family-names: Barry
+      affiliation: BNP Paribas
+    - given-names: Tushar
+      family-names: Sharma
+      affiliation: Dalhousie University
+    - given-names: Jérôme
+      family-names: Lebecq
+      affiliation: BNP Paribas
+  collection-title: "Proceedings of the 33rd Asia-Pacific Software Engineering Conference (APSEC), Software Engineering in Practice Track"
+  year: 2026
+  notes: "To appear. Add the DOI and pages once the proceedings are published."
