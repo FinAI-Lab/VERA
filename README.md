@@ -16,10 +16,13 @@ doc:
     dev_setup: ./docs/README-dev.md
     paper: ./manuscript/README.md
   tags: [vera, eu-ai-act, compl-ai, responsible-ai, llm-evaluation, fairness]
-last_reviewed: "2026-09-17"
+last_reviewed: "2026-10-15"
 ---
 
 # VERA — Verifiable Evaluation for Responsible AI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23399274.svg)](https://doi.org/10.5281/zenodo.23399274)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 VERA turns a declared specification of responsible-AI requirements into scored, traceable evidence
 that a model reviewer can read without writing code.
@@ -112,9 +115,16 @@ See [tests/README.md](tests/README.md) and [docs/README-dev.md](docs/README-dev.
 
 `CITATION.cff` carries the same reference in machine-readable form.
 
-The source code of each release is archived on Zenodo:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23399274.svg)](https://doi.org/10.5281/zenodo.23399274) — this DOI always resolves to the latest version.
+Every release is archived on Zenodo, which mints a DOI for it:
+
+| DOI | What it points to |
+|---|---|
+| [10.5281/zenodo.23399274](https://doi.org/10.5281/zenodo.23399274) | all versions — always resolves to the latest one; cite this unless you need a fixed version |
+| [10.5281/zenodo.23399275](https://doi.org/10.5281/zenodo.23399275) | v1.0.0, the release accompanying the APSEC 2026 paper |
+
+> R. Quériaux, S. Bachellery, L. Déléris, S. Rajput, M. Barry, T. Sharma and J. Lebecq,
+> *VERA — Verifiable Evaluation for Responsible AI*, Zenodo, 2026, doi:10.5281/zenodo.23399274.
 
 ## License
 
-Apache-2.0.
+Apache-2.0 — the full text is in [LICENSE](LICENSE). Copyright 2026 BNP Paribas.
