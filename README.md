@@ -127,4 +127,6 @@ Every release is archived on Zenodo, which mints a DOI for it:
 
 ## License
 
-Apache-2.0 — the full text is in [LICENSE](LICENSE). Copyright 2026 BNP Paribas.
+VERA is released under the Apache License 2.0 — the full text is in
+[LICENSE](LICENSE). Copyright 2026 VERA contributors. Third-party components keep
+their own licences and notices; see [NOTICE](NOTICE).

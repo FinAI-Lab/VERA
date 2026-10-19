@@ -1,0 +1,32 @@
+VERA
+Copyright 2026 VERA contributors
+
+This product is distributed under the Apache License, Version 2.0
+(see LICENSE).
+
+VERA does not redistribute third-party source code. It calls open-source
+components that are installed separately and that remain under their own
+licences and copyright notices, among them:
+
+  - lm-evaluation-harness (EleutherAI) — MIT —
+    https://github.com/EleutherAI/lm-evaluation-harness
+  - garak (NVIDIA) — Apache-2.0 — https://github.com/NVIDIA/garak
+  - Presidio (Microsoft) — MIT — https://github.com/microsoft/presidio
+  - Detoxify (Unitary) — Apache-2.0 — https://github.com/unitaryai/detoxify
+  - Hugging Face Datasets — Apache-2.0 —
+    https://github.com/huggingface/datasets
+  - MLflow — Apache-2.0 — https://mlflow.org
+  - Celery — BSD-3-Clause — https://docs.celeryq.dev
+
+The authoritative and complete list of dependencies, with their version
+ranges, is declared in pyproject.toml; each package carries its own licence
+in its distribution.
+
+The taxonomy of requirements implemented by VERA follows the technical
+interpretation of the EU AI Act published by COMPL-AI. The mapping between
+requirements, benchmarks and scores is documented in docs/ARCHITECTURE.md
+and in the accompanying paper.
+
+Where VERA modifies the behaviour of a third-party component, the change is
+made in VERA's own source files, which are identified as such in this
+repository.

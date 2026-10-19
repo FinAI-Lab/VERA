@@ -8,8 +8,8 @@ copyright notice, and ships `main.bbl`, because **arXiv does not run BibTeX**.
 
 ## Before uploading
 
-1. **Internal clearance.** The paper names BNP Paribas and describes an internal review process.
-   Get Mariam Barry's go-ahead, and communication or legal sign-off if that is the rule.
+1. **Internal clearance.** Confirm with the co-authors' institutions that the preprint may be
+   posted, and obtain any communication or legal sign-off that applies.
 2. **Co-authors' agreement.** One line to the six co-authors is enough; nobody should discover the
    preprint after the fact.
 3. **An arXiv account with submission rights.** A first submission in `cs.SE` needs an
@@ -27,7 +27,7 @@ copyright notice, and ships `main.bbl`, because **arXiv does not run BibTeX**.
 | Title | VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act |
 | Authors | Robin Quériaux, Solveig Bachellery, Léa Déléris, Saurabh Rajput, Mariam Barry, Tushar Sharma, Jérôme Lebecq |
 | Abstract | The paper's abstract, as plain text, with no LaTeX macros |
-| Comments | `Accepted at APSEC 2026 (Software Engineering in Practice track). 11 pages. Tool and study material: https://github.com/Rqbln/VERA` |
+| Comments | `Accepted at APSEC 2026 (Software Engineering in Practice track). 11 pages. Tool and study material: https://github.com/FinAI-Lab/VERA` |
 | ACM class (optional) | `D.2.9; K.4.1` |
 | Files | Upload the `.tar.gz`. Do **not** upload the IEEE-typeset PDF from IEEE Xplore |
 

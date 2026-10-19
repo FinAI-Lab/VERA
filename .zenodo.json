@@ -23,7 +23,7 @@
     "software engineering in practice"
   ],
   "related_identifiers": [
-    {"identifier": "https://github.com/Rqbln/VERA", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://github.com/FinAI-Lab/VERA", "relation": "isSupplementTo", "scheme": "url"},
     {"identifier": "10.5281/zenodo.23399274", "relation": "isVersionOf", "scheme": "doi"}
   ]
 }

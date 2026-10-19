@@ -206,7 +206,7 @@ in **85 minutes on an Apple M4 Max, 36 GB**, at 150 items per benchmark. (Same s
    extended abstracts 2 pages. IEEE two-column, A4, EasyChair, at least three PC
    reviewers.
 2. **Single-blind — the submission is NAMED.** No anonymity requirement: submit with
-   the real author block, keep `github.com/Rqbln/VERA` in the clear (the anonymized
+   the real author block, keep `github.com/FinAI-Lab/VERA` in the clear (the anonymized
    mirror and the identity purge are no longer submission constraints), and the
    screenshots may show the industry--academia partnership, which is an asset for
    SEIP.
