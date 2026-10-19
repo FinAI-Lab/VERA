@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Every registry benchmark id resolves to a runner implementation."""
 
 from __future__ import annotations

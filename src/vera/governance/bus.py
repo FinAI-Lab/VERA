@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Event-bus abstraction for the governance runtime (MVP4 gaas).
 
 A minimal publish/consume surface over an append-only event bus, with two backends:

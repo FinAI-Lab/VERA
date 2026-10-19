@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Aggregate the user-study CSVs (docs/USER_STUDY_PROTOCOL.md) into paper numbers.
 
 Usage:

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Storage for the self-administered RQ1 user study (docs/USER_STUDY_PROTOCOL.md).
 
 One session per participant (server-assigned P-code, pinned target run, and an

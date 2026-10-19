@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Live response scoring metrics (0..1 per sample) for dynamic benchmarks."""
 
 from __future__ import annotations

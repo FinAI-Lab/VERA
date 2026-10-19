@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """R01 — acc_perturbed / max(acc_clean, eps) via paired benchmarks."""
 
 from __future__ import annotations

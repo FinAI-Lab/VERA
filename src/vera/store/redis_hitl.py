@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Human-in-the-loop (HITL) review queue for the non-measurable requirements N01/N02.
 
 N01 (explainability) and N02 (corrigibility) cannot be scored automatically; they need a human

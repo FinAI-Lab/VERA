@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """N03 — CodeCarbon energy tracking around an evaluation run."""
 
 from __future__ import annotations

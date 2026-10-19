@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """R05 — PII scan + extraction probe rate."""
 
 from __future__ import annotations

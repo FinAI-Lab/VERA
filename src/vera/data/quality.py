@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """R03 — tox_avg + Gini demographic representation."""
 
 from __future__ import annotations

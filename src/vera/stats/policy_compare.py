@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Compare requirement verdicts under alternative weighting policies.
 
 A policy is a mapping benchmark -> weight for one requirement. Scores are

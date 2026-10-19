@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """CLI and API against real Redis (FastAPI TestClient + real store)."""
 
 from __future__ import annotations

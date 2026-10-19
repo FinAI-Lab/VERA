@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Contract: no unittest.mock in tests (MVP2 policy)."""
 
 from __future__ import annotations

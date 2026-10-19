@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Governance scoring agents (MVP4 gaas).
 
 Four agents score each governed request/response, one per safety-relevant requirement. They reuse

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """build_benchmark_run_dict shape and COMPL-AI id mapping."""
 
 from __future__ import annotations

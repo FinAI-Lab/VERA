@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Trust Factor engine (thin MVP4 slice).
 
 Aggregates the most safety-relevant measurable requirements into a single 0–100 ``Trust Factor``

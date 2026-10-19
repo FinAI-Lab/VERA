@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Audit / SIEM sink (MVP4 gaas).
 
 Consumes ``audit-events`` and persists each signed record to the local JSONL chain and, when

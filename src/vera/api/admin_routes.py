@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Governance admin control plane (MVP4 gaas).
 
 The operator surface for the governance runtime: read/set per-model mode, inspect live Trust Factor

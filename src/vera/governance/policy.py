@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Governance policy decisions (MVP4 gaas).
 
 The proxy and admin plane ask "should this request be allowed, flagged, or denied?". When an Open

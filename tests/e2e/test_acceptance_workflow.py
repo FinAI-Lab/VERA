@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """End-to-end MVP2 (API → Celery eager → LangGraph → Ollama → MLflow → MinIO)."""
 
 from __future__ import annotations

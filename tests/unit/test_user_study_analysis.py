@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """RQ1 user-study aggregation: completion, assisted, timing."""
 
 from __future__ import annotations

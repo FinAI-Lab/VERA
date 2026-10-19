@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """E2E fixtures: Celery eager + optional stack checks."""
 
 from __future__ import annotations

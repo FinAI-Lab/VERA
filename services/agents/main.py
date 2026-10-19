@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Governance agent worker (MVP4 gaas).
 
 Runs two consumer loops in threads: the 4 scoring agents (llm-traffic -> gov-signals) and the

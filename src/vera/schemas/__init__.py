@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 from vera.schemas.benchmark_run import build_benchmark_run_dict
 from vera.schemas.run_payload import GovernancePayload, RunConfig, RunCreateRequest
 

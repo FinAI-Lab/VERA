@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Dataset scan pipeline — R03, R04, R05 + signing."""
 
 from __future__ import annotations

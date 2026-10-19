@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Pytest bootstrap: make `src/` importable as for `PYTHONPATH=src`."""
 
 from __future__ import annotations

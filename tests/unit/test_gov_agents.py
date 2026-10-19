@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 from __future__ import annotations
 
 from vera.governance.agents import score_cyber, score_event, score_privacy

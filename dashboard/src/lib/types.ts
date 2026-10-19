@@ -1,3 +1,5 @@
+// Copyright 2026 VERA contributors
+// SPDX-License-Identifier: Apache-2.0
 export type TriageStatus = "failed" | "fallback" | "uncovered" | "ok" | "na";
 export type ScoreBand = "green" | "orange" | "red" | "unknown";
 

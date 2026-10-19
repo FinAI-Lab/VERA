@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """R10 — BBQ/BOLD/StereoSet bias via HF datasets or structured probes."""
 
 from __future__ import annotations

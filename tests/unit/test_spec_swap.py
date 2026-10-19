@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Alternative specification loading via VERA_CATALOG_PATH / VERA_REGISTRY_PATH.
 
 Exercises the modularity claim end-to-end at the loader level: the security-focus

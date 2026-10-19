@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Optional probe against a live Ollama daemon (skipped by default)."""
 
 from __future__ import annotations

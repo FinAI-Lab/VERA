@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 from __future__ import annotations
 
 from vera.governance.pdf_export import build_audit_html, render_audit_pdf, weasyprint_available

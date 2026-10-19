@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Detect optional data-stage and benchmark dependencies."""
 
 from __future__ import annotations

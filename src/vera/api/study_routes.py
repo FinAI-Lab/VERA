@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Self-administered RQ1 user study: sessions, app-measured task responses, CSV export.
 
 Answers are validated SERVER-side against an answer key snapshotted at session

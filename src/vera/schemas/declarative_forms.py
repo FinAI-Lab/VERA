@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Declarative governance forms N03–N06 (MVP3).
 
 These COMPL-AI requirements are attested, not measured: environmental impact (N03), general

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Signed audit / SIEM trail for the governance runtime (MVP4 gaas).
 
 Every governed request, agent signal, and policy decision becomes an append-only, **signed** audit

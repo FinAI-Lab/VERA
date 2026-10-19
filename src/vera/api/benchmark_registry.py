@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Benchmark IDs mapped to real runner implementations.
 
 The registry is the requirement specification's machine half: which benchmarks

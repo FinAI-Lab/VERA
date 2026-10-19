@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Streaming Trust Factor (governance runtime).
 
 Consumes scored signals emitted by the governance agents (``gov-signals``), keeps the latest

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Lightweight drift / canary monitoring (thin MVP4 slice).
 
 On-demand drift detection over a model's run history: compares the latest Trust Factor against a

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """COMPL-AI measurable requirement scores with bootstrap CIs."""
 
 from __future__ import annotations

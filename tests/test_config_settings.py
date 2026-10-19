@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Settings and derived properties (Pydantic Settings)."""
 
 from __future__ import annotations

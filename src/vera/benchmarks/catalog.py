@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Load benchmarks_catalog.yaml and requirement weights.
 
 The catalog is the scoring policy: a versioned, signed data file. Point

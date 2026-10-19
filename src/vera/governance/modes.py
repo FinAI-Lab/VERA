@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Per-model governance mode (MVP4 gaas).
 
 A model is governed in one of three escalating modes:

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 from __future__ import annotations
 
 from vera.governance.trust_factor import compute_trust_factor, load_weights

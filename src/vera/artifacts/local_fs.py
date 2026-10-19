@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Local-filesystem artifact backend.
 
 Mirrors the :mod:`vera.artifacts.s3io` surface (``upload_bytes`` / ``download_bytes`` /

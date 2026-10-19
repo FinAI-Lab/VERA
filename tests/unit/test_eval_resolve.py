@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 from __future__ import annotations
 
 from vera.schemas.run_payload import RunCreateRequest

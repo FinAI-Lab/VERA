@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Signed audit PDF export (MVP3).
 
 Renders a run's compliance picture — COMPL-AI scores, Trust Factor, declarative forms — to a PDF

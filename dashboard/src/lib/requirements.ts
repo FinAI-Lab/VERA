@@ -1,3 +1,5 @@
+// Copyright 2026 VERA contributors
+// SPDX-License-Identifier: Apache-2.0
 // The 12 measurable COMPL-AI requirements, grouped by EU AI Act principle.
 // Mirrors COMPLAI_META in src/vera/dashboard/triage.py — keep in sync.
 

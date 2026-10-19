@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Governance kill-switch (thin MVP4 slice).
 
 A single global flag that halts new evaluation runs. It is honoured both at run creation

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """MVP2 default Ollama model in Settings."""
 
 from __future__ import annotations

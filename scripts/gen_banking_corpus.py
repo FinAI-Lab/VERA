@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Generate a 100%-synthetic banking corpus for VERA dataset-stage requirements (R03–R05).
 
 Writes data/corpus/banking_synth.jsonl with ~200 FR/EN banking-style documents containing:

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Bootstrap confidence intervals for COMPL-AI aggregate scores (MVP1 §4.3)."""
 
 from __future__ import annotations

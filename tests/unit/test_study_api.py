@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Self-administered user-study API: sessions, server-side validation, CSV export."""
 
 from __future__ import annotations

@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Self-hosted LLM judge for attack-success / rubric scoring (Ollama via LiteLLM)."""
 
 from __future__ import annotations

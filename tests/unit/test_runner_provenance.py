@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Fallback paths must set fallback=true explicitly."""
 
 from __future__ import annotations

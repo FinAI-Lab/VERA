@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """R01 robustness ratio formula."""
 
 from __future__ import annotations

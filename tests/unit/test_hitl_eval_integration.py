@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """N01/N02 HITL integration with the eval task: auto-queue at completion, card slots."""
 
 from __future__ import annotations

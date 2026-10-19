@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Policy-comparison primitives: uniform vs signed-catalog vs alternative weights."""
 
 from __future__ import annotations

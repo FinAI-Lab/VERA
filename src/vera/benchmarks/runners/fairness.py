@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """R11 — DPD/EOD simplified on structured Adult-like probes."""
 
 from __future__ import annotations

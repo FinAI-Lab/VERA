@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Inline governance proxy core (MVP4 gaas).
 
 Sits in front of the LLM. For each request it (1) reads the model's mode + kill-switch + live Trust

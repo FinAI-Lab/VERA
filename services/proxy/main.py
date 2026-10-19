@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Inline governance proxy — OpenAI-compatible FastAPI service (MVP4 gaas).
 
 Run: ``uvicorn services.proxy.main:app --host 0.0.0.0 --port 8000`` (port 8100 on the host).

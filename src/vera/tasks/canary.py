@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """Governance canary (MVP4 gaas).
 
 A scheduled probe that runs a small golden prompt set against the target model and feeds the

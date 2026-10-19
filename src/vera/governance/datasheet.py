@@ -1,3 +1,5 @@
+# Copyright 2026 VERA contributors
+# SPDX-License-Identifier: Apache-2.0
 """N04 — Datasheet for Datasets (Gebru 2021) generator."""
 
 from __future__ import annotations
