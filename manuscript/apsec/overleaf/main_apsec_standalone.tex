@@ -1,3 +1,7 @@
+% IEEE PDF eXpress asks for Acrobat 5.0 compatibility (PDF 1.4); object
+% streams are a 1.5 feature, so they are turned off as well.
+\ifdefined\pdfminorversion\pdfminorversion=4\fi
+\ifdefined\pdfobjcompresslevel\pdfobjcompresslevel=0\fi
 \documentclass[10pt,conference,a4paper]{IEEEtran}
 \IEEEoverridecommandlockouts
 
