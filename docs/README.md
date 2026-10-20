@@ -29,9 +29,3 @@ VERA is an open-source framework for evaluating LLMs against the EU AI Act. Star
 | [../dashboard/DESIGN_SYSTEM.md](../dashboard/DESIGN_SYSTEM.md) | frontend developers | Design tokens and component rules. |
 | [../data/corpus/README.md](../data/corpus/README.md) | researchers | The synthetic banking corpus schema (100% synthetic, planted PII / near-duplicates / imbalance). |
 | [../tests/README.md](../tests/README.md) | developers | The test tiers and policy. |
-
-## The papers
-
-`manuscript/` holds the ICSE 2027 SEIP paper in progress (build and writing conventions in
-[../manuscript/README.md](../manuscript/README.md)); the submitted APSEC paper is frozen in
-[../manuscript/apsec/](../manuscript/apsec/README.md).

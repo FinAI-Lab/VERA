@@ -50,7 +50,7 @@ vera-eval run examples/runs/ollama_e2e.yaml     # or POST /api/v1/runs, or the d
 ```
 Lower the sampling budget in the run definition for a quick smoke run before a full one.
 
-**Model panels.** The ICSE 2027 campaign (panels of Foundry deployments, seeds, budgets,
+**Model panels.** The campaign (panels of Foundry deployments, seeds, budgets,
 measurability and cost analyses) runs from the separate `vera-foundry` repository, which pins a VERA
 commit and generates the paper's tables. The driver behind the APSEC panel is kept for provenance in
 `manuscript/apsec/scripts/run_paper_eval.py` (run from the repository root; it writes

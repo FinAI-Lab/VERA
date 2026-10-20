@@ -51,9 +51,8 @@ that a model reviewer can read without writing code.
 | `infra/` | Keycloak realm and OPA policy used by the enterprise and gaas profiles |
 | `scripts/` | Native setup, corpus generator, study analysis |
 | `docs/` | Architecture, user guide, developer setup, evaluation and non-measurable guides |
-| `manuscript/` | The ICSE 2027 SEIP paper in progress; the submitted APSEC paper in `manuscript/apsec/` |
 
-The ICSE 2027 evaluation campaign on Microsoft Foundry runs from the separate `vera-foundry`
+The evaluation campaign on Microsoft Foundry runs from the separate `vera-foundry`
 repository, which pins a VERA commit and generates the paper's tables.
 
 ## Quick start
@@ -86,7 +85,6 @@ bash scripts/setup_native.sh       # installs .[benchmarks,data,pdf] and checks 
 ## The paper
 
 ```bash
-cd manuscript && make draft        # ICSE 2027 SEIP draft with its drafting cockpit
 ```
 
 See [manuscript/README.md](manuscript/README.md) for the build targets, the ML-arm scenarios and
@@ -111,7 +109,7 @@ See [tests/README.md](tests/README.md) and [docs/README-dev.md](docs/README-dev.
 > R. Quériaux, S. Bachellery, L. Déléris, S. Rajput, M. Barry, T. Sharma and J. Lebecq,
 > "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
 > in *Proceedings of the 33rd Asia-Pacific Software Engineering Conference (APSEC), Software
-> Engineering in Practice Track*, 2026. To appear.
+> Engineering in Practice Track*, 2026. Accepted at APSEC 2026 (SEIP).
 
 `CITATION.cff` carries the same reference in machine-readable form.
 

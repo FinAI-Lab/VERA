@@ -28,3 +28,6 @@ private/
 
 # Locally vendored tools with their own git history
 /skills/
+
+# Paper sources live in the private Rqbln/VERA-papers repository
+manuscript/

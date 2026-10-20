@@ -81,7 +81,6 @@ restate it elsewhere.
 | `src/vera/store/` | Redis stores: `redis_run` (carries `energy`), `redis_models`, `redis_hitl` (multi-criteria rubric), `redis_forms` |
 | `scripts/` | `setup_native.sh`, `gen_banking_corpus.py`, `analyze_user_study.py` |
 | `examples/` | `runs/` (run definitions), `specs/` (alternative registry + catalog pairs) |
-| `manuscript/` | ICSE 2027 SEIP paper (`make draft`, see `manuscript/README.md`); submitted APSEC paper frozen in `manuscript/apsec/` |
 | `src/vera/artifacts/` | `s3io` (MinIO) + `local_fs` (lite fallback), backend selector |
 | `src/vera/dashboard/` | **Python** triage + score bands (NOT the UI) |
 | `dashboard/` | **Next.js** UI (App Router, TanStack Query, Tailwind, Recharts, Playwright) |
